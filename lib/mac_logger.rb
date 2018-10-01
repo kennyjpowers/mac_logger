@@ -3,7 +3,7 @@ require "mac_logger/logger"
 
 module MacLogger
   # Your code goes here...
-  def self.logger
-    @logger ||= Logger.new
+  def self.logger(options = {})
+    @logger ||= Logger.new(options)
   end
 end

@@ -1,4 +1,3 @@
-require 'terminal-notifier'
 RSpec.describe MacLogger::Logger do
 
   subject { MacLogger::Logger.new(title: "Test",

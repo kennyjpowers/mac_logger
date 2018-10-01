@@ -1,4 +1,5 @@
 require 'date'
+require 'terminal-notifier'
 
 module MacLogger
   class Logger

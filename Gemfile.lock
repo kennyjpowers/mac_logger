@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mac_logger (0.1.0)
+    mac_logger (0.3.0)
       terminal-notifier (~> 2.0)
 
 GEM
