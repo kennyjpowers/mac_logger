@@ -1,7 +1,7 @@
 RSpec.describe MacLogger::Logger do
 
-  subject { MacLogger::Logger.new(title: "Test",
-                                  subtitle: "FTW")
+  subject { MacLogger.logger(title: "Test",
+                             subtitle: "FTW")
   }
 
   it "should log the message passed into debug" do
